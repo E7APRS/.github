@@ -191,6 +191,57 @@ npm install
 | `history:snapshot`   | server → client | `Record<radioId, Position[]>` — trails |
 | `position:update`    | server → client | `Position` — single new position       |
 
+## Contributions 
+
+If you find this project interesting and would like to contribute, you're very welcome - whether you're a developer, radio amateur, or just curious about APRS/DMR systems.
+
+### Ways to Contribute
+
+* Radio integrations - decoding improvements, hardware experimentation
+* Improve frontend - map UX, performance, responsiveness
+* Optimize backend - data handling, scaling, caching strategies
+* Suggest features - especially around core architecture and data flow
+* Report bugs - things may break often in this stage, feedback is extremely valuable
+
+> ⚠️ Project is in Pre-Alpha
+> This project is in a very early stage of development.
+> Expect breaking changes, incomplete features, unstable APIs, and frequent refactoring.
+
+### Getting Started
+
+#### 1. Fork the repository you want to contribute to:
+Backend: https://github.com/E7APRS/APRS-dashboard-backend
+Frontend: https://github.com/E7APRS/APRS-dashboard-frontend
+DMR Parser: https://github.com/E7APRS/dmr-parser
+
+#### 2. Create a feature branch:
+
+git checkout -b feature/your-feature-name
+
+#### 3. Make your changes following project conventions:
+TypeScript-first
+Clean, modular structure (SOLID, DRY)
+Expect ongoing refactors — keep code adaptable
+
+#### 4. Commit with clear messages:
+
+git commit -m "feat: add APRS symbol filtering"
+
+#### 5. Push and open a Pull Request with a clear description
+
+### Contribution Guidelines
+- Keep PRs focused and small
+- Include context and reasoning
+- Be prepared for requested changes or refactors due to evolving architecture
+- Update documentation when relevant
+- Test your changes locally before submitting
+
+### Important Notes for Pre-Alpha Contributors
+- APIs and data structures may change without notice
+- Backend/frontend contracts are not stable yet
+- Some features may be partially implemented or experimental
+- Refactoring is frequent and expected
+
 ## License
 
 Copyright (c) 2026 Adin Bešlagić. All rights reserved.  
